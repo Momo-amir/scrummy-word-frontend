@@ -1,3 +1,10 @@
+import WordCountForm from "./components/WordCountForm";
+
 export default function Home() {
-  return <div>Hello world</div>;
+  return (
+    <>
+      <WordCountForm />
+
+    </>
+  );
 }
